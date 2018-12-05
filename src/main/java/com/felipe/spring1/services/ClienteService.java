@@ -10,14 +10,12 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Sort.Direction;
 import org.springframework.stereotype.Service;
 
-
 import com.felipe.spring1.domain.Cidade;
 import com.felipe.spring1.domain.Cliente;
 import com.felipe.spring1.domain.Endereco;
 import com.felipe.spring1.domain.enums.TipoCliente;
 import com.felipe.spring1.dto.ClienteDTO;
 import com.felipe.spring1.dto.ClienteNewDTO;
-import com.felipe.spring1.repositories.CidadeRepository;
 import com.felipe.spring1.repositories.ClienteRepository;
 import com.felipe.spring1.repositories.EnderecoRepository;
 import com.felipe.spring1.services.exceptions.DataIntegrityException;
