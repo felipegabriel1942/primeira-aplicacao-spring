@@ -17,9 +17,7 @@ import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 
-import com.felipe.spring1.domain.Categoria;
 import com.felipe.spring1.domain.Cliente;
-import com.felipe.spring1.dto.CategoriaDTO;
 import com.felipe.spring1.dto.ClienteDTO;
 import com.felipe.spring1.dto.ClienteNewDTO;
 import com.felipe.spring1.services.ClienteService;
